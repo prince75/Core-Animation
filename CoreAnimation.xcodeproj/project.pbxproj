@@ -13,6 +13,7 @@
 		C02519AD1F763266005FDD39 /* CoreAnimation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C02519AB1F763266005FDD39 /* CoreAnimation.xcdatamodeld */; };
 		C02519AF1F763266005FDD39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C02519AE1F763266005FDD39 /* Assets.xcassets */; };
 		C02519B21F763266005FDD39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02519B01F763266005FDD39 /* LaunchScreen.storyboard */; };
+		C02519BA1F763281005FDD39 /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02519B91F763281005FDD39 /* UITextFieldExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C02519AE1F763266005FDD39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C02519B11F763266005FDD39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C02519B31F763266005FDD39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C02519B91F763281005FDD39 /* UITextFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				C02519B01F763266005FDD39 /* LaunchScreen.storyboard */,
 				C02519B31F763266005FDD39 /* Info.plist */,
 				C02519AB1F763266005FDD39 /* CoreAnimation.xcdatamodeld */,
+				C02519B91F763281005FDD39 /* UITextFieldExtension.swift */,
 			);
 			path = CoreAnimation;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C02519A71F763265005FDD39 /* ViewController.swift in Sources */,
+				C02519BA1F763281005FDD39 /* UITextFieldExtension.swift in Sources */,
 				C02519A51F763265005FDD39 /* AppDelegate.swift in Sources */,
 				C02519AD1F763266005FDD39 /* CoreAnimation.xcdatamodeld in Sources */,
 			);

@@ -14,6 +14,7 @@
 		C02519AF1F763266005FDD39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C02519AE1F763266005FDD39 /* Assets.xcassets */; };
 		C02519B21F763266005FDD39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02519B01F763266005FDD39 /* LaunchScreen.storyboard */; };
 		C02519BA1F763281005FDD39 /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02519B91F763281005FDD39 /* UITextFieldExtension.swift */; };
+		C02519BC1F77FDC6005FDD39 /* EmitterLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02519BB1F77FDC6005FDD39 /* EmitterLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C02519B11F763266005FDD39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C02519B31F763266005FDD39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C02519B91F763281005FDD39 /* UITextFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
+		C02519BB1F77FDC6005FDD39 /* EmitterLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmitterLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				C02519B31F763266005FDD39 /* Info.plist */,
 				C02519AB1F763266005FDD39 /* CoreAnimation.xcdatamodeld */,
 				C02519B91F763281005FDD39 /* UITextFieldExtension.swift */,
+				C02519BB1F77FDC6005FDD39 /* EmitterLayer.swift */,
 			);
 			path = CoreAnimation;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C02519BC1F77FDC6005FDD39 /* EmitterLayer.swift in Sources */,
 				C02519A71F763265005FDD39 /* ViewController.swift in Sources */,
 				C02519BA1F763281005FDD39 /* UITextFieldExtension.swift in Sources */,
 				C02519A51F763265005FDD39 /* AppDelegate.swift in Sources */,
